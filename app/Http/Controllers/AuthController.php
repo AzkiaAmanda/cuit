@@ -11,6 +11,8 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+    // public function showRegister(){ return view('login') }
+    // public function showLogin(){ return view('login') }
     public function register(Request $request): RedirectResponse
     {
         $request->validate([
